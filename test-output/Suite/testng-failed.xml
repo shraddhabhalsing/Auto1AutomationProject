@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="SortByPrice" value="Höchster Preis"/>
+    <classes>
+      <class name="com.auto.qa.testcases.AutoHero_MainPageTest">
+        <methods>
+          <include name="verifyCarsSortedByPriceDesc"/>
+          <include name="sortCarsByPriceDesc" invocation-numbers="0"/>
+          <include name="launchURL"/>
+          <include name="verifyCarsFilteredByFirstReg"/>
+          <include name="filterForFirstRegistration" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="ads"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.AutoHero_MainPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

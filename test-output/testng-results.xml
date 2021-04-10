@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15874" started-at="2021-04-10T19:18:42 CEST" finished-at="2021-04-10T19:18:58 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15874" started-at="2021-04-10T19:18:42 CEST" finished-at="2021-04-10T19:18:58 CEST">
+      <class name="com.auto.qa.testcases.AutoHero_MainPageTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="basicSetUp" is-config="true" duration-ms="905" started-at="2021-04-10T19:18:42 CEST" finished-at="2021-04-10T19:18:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="launchURL" duration-ms="6278" started-at="2021-04-10T19:18:43 CEST" finished-at="2021-04-10T19:18:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="filterForFirstRegistration(java.lang.String)[pri:2, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="filterForFirstRegistration" duration-ms="701" started-at="2021-04-10T19:18:51 CEST" data-provider="passSheet" finished-at="2021-04-10T19:18:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterForFirstRegistration -->
+        <test-method status="PASS" signature="sortCarsByPriceDesc(java.lang.String)[pri:3, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="sortCarsByPriceDesc" duration-ms="787" started-at="2021-04-10T19:18:52 CEST" finished-at="2021-04-10T19:18:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Höchster Preis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCarsByPriceDesc -->
+        <test-method status="PASS" signature="verifyCarsFilteredByFirstReg()[pri:4, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="verifyCarsFilteredByFirstReg" duration-ms="676" started-at="2021-04-10T19:18:52 CEST" finished-at="2021-04-10T19:18:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarsFilteredByFirstReg -->
+        <test-method status="PASS" signature="verifyCarsSortedByPriceDesc()[pri:5, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="verifyCarsSortedByPriceDesc" duration-ms="161" started-at="2021-04-10T19:18:53 CEST" finished-at="2021-04-10T19:18:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarsSortedByPriceDesc -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.auto.qa.testcases.AutoHero_MainPageTest@eafc191]" name="closeBrowser" is-config="true" duration-ms="4929" started-at="2021-04-10T19:18:53 CEST" finished-at="2021-04-10T19:18:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.auto.qa.testcases.AutoHero_MainPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
